@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Madefor Display", sans-serif;
+}
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 247, 249);
+    height: 3.125rem;
+    border-bottom: thin solid royalblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header h3{
+    margin-right: 0.625rem;
+}
+header p{
+    margin-left: 0.625rem;
+}
+header button{
+    margin-left: 1.25rem;
+    width: 6.25rem;
+    height: 1.5625rem;
+    border: thin solid royalblue;
+    border-radius: 6.25rem;
+    color: royalblue;
+}
+header section:hover{
+    button{
+        background-color: royalblue;
+        color: white;
+    }
+}
+header h1{
+    text-align: center;
+    font-size: 6.125rem;
+    margin-top: 7.5rem;
+    margin-bottom: 5rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2.375rem;
+    margin-right: 2.375rem;
+}
+li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    cursor: pointer;
+} 
+.first{
+    background-image: url(c02635_23e36fc1b3854264a766a0658c1789cf~mv2.png);
+    margin-top: 7.25rem;
+    height: 31.25rem;
+    padding-top: 11.875rem;
+    background-size: cover;
+}
+.first h2{
+    text-align: center;
+    color: white;
+    font-size: 3.75rem;
+}
+.first p{
+    text-align: center;
+    margin-top: 1.875rem;
+    line-height: 2;
+}
+.first button{
+    display: block;
+    margin: auto;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(58, 124, 158);
+    border-style: none;
+    margin-top: 2.5rem;
+    box-shadow: 0.3125rem 0.3125rem 0.1875rem ;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(112, 195, 236); */
+}
+.second h2{
+    margin-top: 6.25rem;
+    font-size: 3.75rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+.second p{
+    text-align: center;
+    line-height: 2;
+}
+.second button{
+    display: block;
+    margin: auto;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: 0.9375rem;
+    background-color: white;
+    color: rgb(58, 124, 158);
+    /* border: thin solid black; */
+    margin-top: 2.5rem;
+    box-shadow: 0.3125rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.563);
+    border-style: none;
+}
+.third h2{
+    margin-top: 13.125rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;   
+}
+.third p{
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 6.25rem;
+}
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fourth div{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.fourth span{
+    font-size: 3.75rem;
+}
+.fourth h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.25rem 0 1.25rem;
+}
+.fourth p{
+    line-height: 2;
+}
+.fifth{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.fifth div{
+    text-align: center;
+}
+.fifth h2{
+    font-size: 2.5rem;
+    margin-bottom: 6.25rem;
+}
+.fifth p{
+    margin-top: 3.75rem;
+    margin-bottom: 13.125rem;
+    line-height: 1.5;
+}
+.arw{
+    font-size: 3.125rem;
+    margin-top: 13.75rem;
+    margin-left: 4.375rem;
+}
+.arrw{
+    font-size: 3.125rem;
+    margin-top: 13.75rem;
+    margin-right: 4.375rem;
+}
+.sixth{
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+.sixth h2{
+    font-size: 2.5rem;
+    margin-bottom: 12.5rem;
+}
+.sixth h4{
+    font-size: 1.5625rem;
+    margin-bottom: 1.25rem;
+}
+.seventh{
+    text-align: center;
+    background-color: rgb(112, 195, 236);
+    padding-top: 6.25rem;
+}
+.seventh h2{
+    font-size: 2.5rem;
+    margin-bottom: 2.1875rem;
+}
+.seventh p{
+    line-height: 2;
+}
+.seventh a{
+    text-decoration: none;
+    color: #000;
+}
+form{
+    padding-top: 5rem;
+    /* border: 2px solid black; */
+    background-color: rgb(112, 195, 236);
+    padding-bottom: 8.125rem;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.top div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.middle div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+input{
+    height: 2.1875rem;
+    width: 12.5rem;
+    margin-bottom: 2.1875rem;
+}
+input:hover{
+    border: 0.125rem solid black;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    /* align-items: flex-start; */
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.9375rem;   
+}
+.bottom textarea{
+    width: 27.8125rem;
+    height: 5rem;
+}
+.bottom textarea:hover{
+    border: 0.125rem solid black;
+}
+.bottom label{
+    margin-left: -17.5rem;
+}
+form button{
+    display: block;
+    margin: auto;
+    margin-top: 3.125rem;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    width: 12.5rem;
+    height: 2.5rem;
+}
+form button:hover{
+    background-color: transparent;
+    color: #000;
+    border: thin solid black;
+}
+footer{
+    text-align: center;
+    padding: 0.9375rem 0;
+}
+@media (min-width:300px) {
+    header p{
+        font-size: small;
+        text-align: center;
+    }   
+    header button{
+        font-size: x-small;
+    }
+    header h1{
+        margin-left: 35px;
+        font-size: 2.5rem;
+        /* margin: auto; */
+        /* text-align: center; */
+    }
+    ul{
+        gap: 10px;
+        /* margin: auto; */
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+    }
+    main p{
+        font-size: 10px;
+    }
+    .first h2{
+        font-size: 3rem;
+    }
+    .second h2{
+        font-size: 3rem;
+    }
+    .second{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .arw{
+        margin-left: 3rem;
+    }
+    .arrw{
+        margin-right: 3rem;
+    }
+    .sixth h2{
+        font-size: 2rem;
+    }
+    .sixth h4{
+        font-size: 1.5rem;
+    }
+    .bottom textarea{
+        width: 12.5rem;
+    }
+    .bottom label{
+        margin-left: -2rem;
+    }
+    footer span{
+        font-size: 10px;
+    }
+}
